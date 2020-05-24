@@ -28,7 +28,6 @@ function fetchOHLC() {
     })
     .then(response => response.json())
     .then(function (response) {
-      console.log(response.access_token);
       console.log("Refresh Tokens");
       fetch('https://latinonetonlinetokenrefresher.herokuapp.com/api/v1/Tokens/RefreshToken',
       {
