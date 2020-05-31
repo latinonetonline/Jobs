@@ -1,4 +1,4 @@
-name: 'Scheduler Refresh Tokens Job'
+name: 'Scheduler All Thursday Job'
 inputs:
   latinonetonline-clientsecret:  
     required: true
