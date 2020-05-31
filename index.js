@@ -29,7 +29,7 @@ function fetchOHLC() {
     .then(response => response.json())
     .then(function (response) {
       console.log("Announcement Next Event Telegram");
-      fetch('https://latinonetonlinebot.herokuapp.com/api/v1/Announcements/NextEvent',
+      fetch('https://latinonetonlinebot.herokuapp.com/api/v1/Announcements/HourLeft',
       {
         method: 'POST',
         headers: {
