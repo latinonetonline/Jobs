@@ -28,8 +28,8 @@ function fetchOHLC() {
     })
     .then(response => response.json())
     .then(function (response) {
-      console.log("Refresh Tokens");
-      fetch('https://latinonetonlinetokenrefresher.herokuapp.com/api/v1/Tokens/RefreshToken',
+      console.log("Announcement Next Event Telegram");
+      fetch('https://latinonetonlinebot.herokuapp.com/api/v1/Announcement',
       {
         method: 'POST',
         headers: {
