@@ -1,4 +1,4 @@
-name: 'Scheduler All Thursday Job'
+name: 'Scheduler All Saturday 14HS UTC Job'
 inputs:
   latinonetonline-clientsecret:  
     required: true
