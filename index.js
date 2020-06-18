@@ -9,7 +9,7 @@ console.log(fetchOHLC());
 function fetchOHLC() {
 
   let url = 'https://latinonetonlineidentityserver.herokuapp.com/connect/token';
-  let clientId = 'latinonetonlineapp';
+  let clientId = 'client';
   let clientSecret = core.getInput('latinonetonline-clientsecret');
 
 
